@@ -97,3 +97,24 @@
   color: #333;
   text-align: center;
 }
+.communities {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto new lines if necessary */
+  gap: 20px; /* Adds space between the boxes */
+  justify-content: center; /* Centers the boxes horizontally */
+}
+
+.reddit {
+  box-shadow: 6px 6px 0px 0px #282826;
+  border: 2px solid #282826;
+  border-radius: 1rem;
+  width: 270px; /* Set a fixed width for each box */
+  height:150px;
+  text-align: center; /* Centers the image inside the box */
+  margin: 3px; /* Ensure space around each box */
+}
+
+.reddit img {
+  width: 80%; /* Makes the image fill the width of the box */
+  justify-content: center;
+}

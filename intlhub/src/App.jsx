@@ -40,9 +40,36 @@ function App() {
             </div>
           ))}
         </div>
+        <h1>COMMUNITIES</h1>
         <div className='communities'>
-          <h1>Communities You Should Consider Joining</h1>
-        </div>
+ 
+  <div className="reddit">
+    <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="Reddit Logo"/>
+  </div>
+  <div className="reddit">
+    <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="Discord Logo"/>
+  </div>
+  <div className="reddit">
+    <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="Facebook Logo"/>
+  </div>
+  <div className="reddit">
+    <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="FreeCodeCamp Logo"/>
+  </div>
+  <div className="reddit">
+    <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="Reddit Logo"/>
+  </div>
+  <div className="reddit">
+    <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="Reddit Logo"/>
+  </div>
+  <div className="reddit">
+    <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="Reddit Logo"/>
+  </div>
+  <div className="reddit">
+    <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="Reddit Logo"/>
+  </div>
+
+</div>
+
         <div className='resources'>
           <h1>Resources from</h1>
         </div>
