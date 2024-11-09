@@ -1,7 +1,12 @@
-const Learn =()=>{
-    return(
-        <h1>learn</h1>
-    );
-}
+
+const Learn = ({ learnTrack }) => {
+
+  return (
+    <div className="track-card">
+      <h3>{learnTrack.title}</h3>
+      
+    </div>
+  );
+};
 
 export default Learn;

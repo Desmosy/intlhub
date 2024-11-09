@@ -1,5 +1,3 @@
-
-
 const Hunt = () => {
   return (
     <div>

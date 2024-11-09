@@ -40,3 +40,60 @@
 .read-the-docs {
   color: #888;
 }
+
+/* App.css */
+.job-card-container {
+  display: flex; /* Enables flexbox */
+  overflow-x: auto; /* Enables horizontal scrolling */
+  white-space: nowrap; /* Prevents wrapping to the next line */
+  padding: 10px;
+  scroll-behavior: smooth; /* Optional: Smooth scrolling behavior */
+}
+
+.job-card {
+  flex: 0 0 auto; /* Prevents the card from shrinking or growing */
+  width: 300px; /* Fixed width for each card */
+  margin: 0 10px; /* Space between cards */
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Track Styles */
+.track-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.track-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  width: 250px;
+}
+
+.track-card:hover {
+  transform: translateY(-5px);
+}
+
+.track-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.track-card h3 {
+  padding: 16px;
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
