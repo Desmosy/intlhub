@@ -29,6 +29,7 @@ function App() {
         <div className='track-card-container'>
           {track.map((learnTrack) => (
             <div key={learnTrack.id}>
+              
               <Learn learnTrack={learnTrack} />
 
               {learnTrack.title === "Computer Science" && (
@@ -40,17 +41,17 @@ function App() {
             </div>
           ))}
         </div>
-        <h1>COMMUNITIES</h1>
+        <div className='community'>COMMUNITIES</div>
         <div className='communities'>
  
   <div className="reddit">
     <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="Reddit Logo"/>
   </div>
   <div className="reddit">
-    <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="Discord Logo"/>
+    <img src="https://1000logos.net/wp-content/uploads/2021/06/Discord-logo.png" alt="Discord Logo"/>
   </div>
   <div className="reddit">
-    <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="Facebook Logo"/>
+    <img src="https://sue.eu/wp-content/uploads/sites/6/2022/11/github-logo-920x460-sue-v1.png" alt="Facebook Logo"/>
   </div>
   <div className="reddit">
     <img src="https://download.logo.wine/logo/Reddit/Reddit-Logo.wine.png" alt="FreeCodeCamp Logo"/>

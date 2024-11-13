@@ -74,12 +74,20 @@
 .track-card {
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 6px 6px 0px 0px #282826;
+  border: 2px solid #282826;
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   width: 250px;
+  height: 300px;
 }
-
+.track-card img {
+  width: 100px;
+  height: 100px;
+  max-width: 200px;
+  margin-bottom: 8px;
+  margin-top: 30%;
+}
 .track-card:hover {
   transform: translateY(-5px);
 }
@@ -92,8 +100,8 @@
 
 .track-card h3 {
   padding: 16px;
-  margin: 0;
-  font-size: 18px;
+  margin-top:40px;
+  font-size: 22px;
   color: #333;
   text-align: center;
 }
@@ -108,13 +116,19 @@
   box-shadow: 6px 6px 0px 0px #282826;
   border: 2px solid #282826;
   border-radius: 1rem;
-  width: 270px; /* Set a fixed width for each box */
+  width: 290px; /* Set a fixed width for each box */
   height:150px;
   text-align: center; /* Centers the image inside the box */
   margin: 3px; /* Ensure space around each box */
 }
 
 .reddit img {
-  width: 80%; /* Makes the image fill the width of the box */
-  justify-content: center;
+  width: 90%; /* Makes the image fill the width of the box */
+  height: 100%;
+}
+.community{
+  font-size: 3rem;
+  font-weight: bold;
+  padding-left: 2%;
+  text-align: left;
 }

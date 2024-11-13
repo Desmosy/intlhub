@@ -7,7 +7,7 @@ const jobsData = [
     },
     {
         id: 2,
-        logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYglyZLcjqE5gd_tnahZtxqtKdj_Kwt8Xwdow38iwDF4dyydyLGmlHU57YtgXhyV2kiQ&usqp=CAU',
+        logo: 'https://i.pinimg.com/564x/74/75/47/74754707329c9a636e72752ef036c33e.jpg',
         title: 'Frontend Developer',
         applyLink: 'https://amazon.jobs/en/jobs/2787427/software-development-engineer-intern-2025-ai-ml',
     },
