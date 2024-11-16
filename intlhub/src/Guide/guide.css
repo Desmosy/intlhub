@@ -1,0 +1,221 @@
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-color: #f8f9fa;
+  }
+  .guides-container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #f8f9fa, #ffffff);
+    padding: 32px;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .guide-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+    width: 100%;
+    flex: 1;
+    padding: 16px;
+    box-sizing: border-box;
+  
+  
+  }
+  .filters {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 32px auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  @media (max-width: 768px) {
+    .guides-container {
+      padding: 16px 8px;
+    }
+    
+    .guide-cards {
+      padding: 8px;
+    }
+    
+    .button-group {
+      padding: 0 4px;
+    }
+  }
+      
+  
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+}
+  
+.header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+  
+
+  
+.search-bar {
+    position: relative;
+    margin-bottom: 16px;
+}
+  
+.search-bar input {
+    width: 100%;
+    padding: 12px 48px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+  
+.search-bar .search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+}
+  
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+  
+.button {
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    border-radius: 24px;
+    border: 2px solid #ddd;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+  
+.button:hover,
+.button.active {
+    background-color: #007bff;
+    color: #fff;
+}
+  
+/* Guide cards container using Grid Layout */
+
+/* Guide card styles */
+.guide-card {
+    flex: 1 1 250px;  /* Flex-grow, flex-shrink, and flex-basis */
+    max-width: 100%; /* Ensure cards don't exceed container width */
+    border: 2px solid black;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 8px 8px 0 #000;
+}
+  
+.guide-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 8px 8px 0 #000;
+}
+  
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.category-icon {
+    color: #007bff;
+}
+  
+.format-badge {
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 0.875rem;
+}
+  
+.description {
+    font-size: 1rem;
+    color: #666;
+}
+  
+.metadata {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+  
+.metadata-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+  
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    gap: 16px;
+}
+  
+.pagination-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border: 2px solid #007bff;
+    border-radius: 24px;
+    background-color: #fff;
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.pagination-button:hover:not(:disabled) {
+    background-color: #007bff;
+    color: #fff;
+}
+  
+.pagination-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+  
+.page-info {
+    font-size: 1rem;
+    color: #555;
+}
+  
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .guide-cards {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on medium screens */
+    }
+}
+  
+@media (max-width: 768px) {
+    .guide-cards {
+        grid-template-columns: 1fr; /* 1 card per row on small screens */
+    }
+}
