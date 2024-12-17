@@ -153,4 +153,65 @@
       order: -1;
     }
   }
+  .checklist-item.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .checklist-item input {
+    margin-right: 10px;
+  }
+  
+  .resources {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .resources a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .resources a:hover {
+    text-decoration: underline;
+  }
+  
+  .course-detail {
+    padding: 20px;
+  }
+  
+  .checklist {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .checklist-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .resources {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  
+  .resources li {
+    margin-bottom: 5px;
+  }
+  
+  .resources a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .resources a:hover {
+    text-decoration: underline;
+  }
+  
   

@@ -28,7 +28,7 @@ function MainLayout() {
         <Route path="/" element={<Home />} />
         <Route path="/guideHub" element={<GuideHub />} />
         <Route path="/hunt" element={<Hunt />} />
-        <Route path="/learn" element={<Learn />} />
+        <Route path="/learn/*" element={<Learn />} />
         <Route path="/gamifiedlist" element={<GamifiedList />} />
       </Routes>
     </>
